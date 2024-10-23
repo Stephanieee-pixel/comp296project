@@ -15,7 +15,10 @@ connection.connect((err) => {
     console.log("Successfully connected to the database!");
 })
 
-var services = function(app){
-    app.post('write-record')
-}
 
+//Insert record to account table
+const account = {first_name: 'Stephanie', last_name: 'Gonzalez', email:'sgonzalez1280@gmail.com', password: 'Vsunny291$'};
+connection.query('INSERT INTO Accounts SET ?', account, (err, result) => {
+    if(err) throw err;
+    console.log("Account insert successful!");
+})
