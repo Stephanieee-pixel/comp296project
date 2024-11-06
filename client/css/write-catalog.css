@@ -1,11 +1,21 @@
-body {
+body{
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: #F7EDF0;
 }
 
+
 .header {
-    background-color: #b72025;
+    background-color: #F4CBC6;
     padding: 20px;
+}
+
+#router_button{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
 }
 
 .title {
@@ -14,7 +24,7 @@ body {
 }
 
 .libraryForm {
-    background-color: white;
+    background-color: #F7EDF0;
 }
 
 .form-group > label {
@@ -76,7 +86,7 @@ body {
     width: 30%;
     margin-left: 2%;
     margin-right: 2%;
-    text-align: right;
+    text-align: center;
 }
 
 .form_md {
